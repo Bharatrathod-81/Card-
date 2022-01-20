@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    display:flex;
+    justify-content: center;
+}
+.card{
+    background-color: gainsboro;
+    border-radius: 1rem;
+    width: 455px;
+}
+img{
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;  
+}
+.container{
+    padding-left: 1rem;
+}
+footer{
+    display: flex;
+    margin: 1rem ;
+    align-items: flex-end; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration:none;
+    padding: 0.5rem;
+}
+a:hover{
+    background-color: rgb(23, 186, 197);
+}
+a:active{
+    background-color: white;
+    color: black;
+}
+a:nth-child(3),a:nth-child(4){
+    font-size: 1.5rem;
+    color: gray;
+}
+a:nth-child(3):active {
+    color: black;
+}
